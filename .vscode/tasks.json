@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "/Users/anhongbeom/playdataHtml",
+			"problemMatcher": [],
+			"label": "Live Preview: 서버 실행"
+		}
+	]
+}
