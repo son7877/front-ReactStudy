@@ -1,0 +1,37 @@
+div {
+  text-align: center;
+  border: 2px solid;
+  border-spacing: 0px;
+  text-align: center;
+  min-width: 500px;
+}
+.rankchart {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+.rankchart th,
+td {
+  border: 0.5px solid lightgrey;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+}
+.bottom {
+  background-color: gray;
+  color: white;
+}
+.globalban {
+  text-align: center;
+  border: 2px solid;
+  border-spacing: 0px;
+}
+.globalban td {
+  border: 1px solid;
+}
+.team {
+  color: blue;
+  cursor: pointer;
+}
