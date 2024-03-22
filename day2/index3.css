@@ -1,0 +1,33 @@
+body {
+  padding: 1em;
+}
+.card {
+  width: 150px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+  border-radius: 2px;
+}
+.card img {
+  max-height: 225px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.card:hover {
+  transition: all 1s;
+  transform: scale(1.2);
+}
+.keyboardcontainer {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  justify-self: center;
+}
+.card:nth-child(2) {
+  flex: 3;
+}
+/* div {
+  width: 100vw;
+  max-height: max-content;
+} */
