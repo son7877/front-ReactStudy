@@ -30,7 +30,7 @@ for (let num = 1; num <= 10; num++) {
 }
 console.log(list3);
 
-// const  num = index%3==0 ? "짝" : index
+// const  num = index%3==0 ? "짝" : index // 3항 연산자
 const list4 = [];
 for (let num = 1; num <= 40; num++) {
   const index =
