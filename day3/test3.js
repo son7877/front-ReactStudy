@@ -5,4 +5,4 @@ for (let i = 0; i < list.length; i++) {
   const index = list[i] % 2 === 0 ? true : false;
   isEven.push(index);
 }
-console.log(isEven);
+console.log(isEven); //
