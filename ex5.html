@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="onClickHandler()">버튼</button>
+    <button onclick="onClickStopIntervalHandler()">그만</button>
+    <button onclick="onClickRemove()">HIDE</button>
+    <p id="hide">hide</p>
+    <p id="hide">hide</p>
+    <table
+      style="text-align: center; border: 2px solid; border-spacing: 0px"
+      id="lcktable"
+    >
+      <thead>
+        <thead>
+          <th
+            onclick="onClickRemoveTable()"
+            style="background-color: lightblue"
+          >
+            팀 순위
+          </th>
+          <th>승</th>
+          <th>패</th>
+          <th>득실차</th>
+          <th>승률</th>
+          <th>kda</th>
+        </thead>
+      </thead>
+
+      <tbody id="teams">
+        <tr>
+          <td>1 담원기아</td>
+          <td>12</td>
+          <td>6</td>
+          <td>15</td>
+          <td>0.66</td>
+          <td>3.92</td>
+        </tr>
+        <tr>
+          <td>2 젠지</td>
+          <td>11</td>
+          <td>8</td>
+          <td>12</td>
+          <td>0.63</td>
+          <td>3.52</td>
+        </tr>
+        <tr>
+          <td>3 젠지</td>
+          <td>11</td>
+          <td>8</td>
+          <td>12</td>
+          <td>0.63</td>
+          <td>3.52</td>
+        </tr>
+        <tr>
+          <td>4 젠지</td>
+          <td>11</td>
+          <td>8</td>
+          <td>12</td>
+          <td>0.63</td>
+          <td>3.52</td>
+        </tr>
+        <tr>
+          <td>5 젠지</td>
+          <td>11</td>
+          <td>8</td>
+          <td>12</td>
+          <td>0.63</td>
+          <td>3.52</td>
+        </tr>
+        <tr>
+          <td>6 젠지</td>
+          <td>11</td>
+          <td>8</td>
+          <td>12</td>
+          <td>0.63</td>
+          <td>3.52</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="./ex5.js"></script>
+  </body>
+</html>

@@ -29,6 +29,6 @@ const kimList = students.filter((el) => {
 console.log(kimList);
 
 // sort정렬
-const ageAsc = students.sort((a, b) => b.age - a.age);
+// const ageAsc = students.sort((a, b) => b.age - a.age);
 console.log(ageAsc);
 console.log(students);
