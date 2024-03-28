@@ -18,3 +18,5 @@ const onClickRemoveTable = () => {
   const teams = document.getElementById("teams");
   if (teams) return teams.remove();
 };
+
+const onClickHandler2 = () => {};

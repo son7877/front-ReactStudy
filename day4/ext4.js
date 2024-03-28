@@ -187,6 +187,7 @@ const onClickRemoveTable = () => {
   const teams = document.getElementById("tbody");
   if (teams) return teams.remove();
 };
+const onClickSort = (property) => {};
 
 // const box = document.getElementById("box");
 // const p = document.createElement("p");
